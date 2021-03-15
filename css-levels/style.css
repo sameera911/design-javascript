@@ -1,0 +1,15 @@
+/* tag/id/class{
+    property1:value;
+}*/
+
+/*External stylesheet*/
+
+h1{
+    color: chocolate;
+
+}
+
+body{
+
+    background-color: rgb(235, 149, 240);
+}

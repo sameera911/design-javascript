@@ -1,0 +1,52 @@
+.martop{
+    margin-top:10%;
+    line-height: 30px;
+    
+}
+
+.menucolor
+{
+color: rgb(17, 17, 17);
+font-size:medium;
+font-weight: 500;
+}
+
+.heading{
+
+    color: rgb(124, 40, 124);
+    /*font-weight:500 ;*/
+}
+
+.span{
+    color: rgb(180, 112, 180);
+}
+
+.button{
+    background-color:#5e068a;
+    padding: 16px 27px;
+    font-weight: 600;
+    margin-top: 21px;
+   
+    border-radius: 50px;
+    color: white;
+    border: 2px solid #5e068a;
+
+}
+button:hover{
+    background-color: white;
+    color: #5e068a;
+}
+
+.mrgn{
+    float: right;
+  
+}
+
+.linkcol{
+    color: #5e068a;
+
+}
+.bgcolor{
+
+    background-color: rgb(233, 233, 233);
+}

@@ -1,0 +1,45 @@
+.heightrow
+{
+    height:510px;
+    background-color: rgb(241, 241, 241);
+}
+
+.placeholder
+{
+  color: #b8b7b7;
+}
+
+input[type=text] {
+    padding: 0;
+    height: 50px;
+    position: relative;
+    border-radius:0.5em;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0, 0, 0, .15);
+    background-color: white;
+    font-size: 18px;
+  }
+  
+  input[type=password] {
+    padding: 0;
+    height: 50px;
+    position: relative;
+    border-radius:0.5em;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0, 0, 0, .15);
+    background-color: white;
+    font-size: 18px;
+  }
+  .advancedSearchTextbox {
+    width: 526px;
+    margin-right: -4px;
+  }
+
+  .trans{
+    opacity: 0.5;
+  }
+  /*style="opacity: 0.5;"*/

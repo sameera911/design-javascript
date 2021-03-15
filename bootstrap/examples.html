@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="row" style="background-color: cadetblue;" >
+        <div class="col-12 col-md-4">.col-12 .col-md-8</div>
+        <div class="col-6 col-md-4">.col-12 .col-md-8</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+      </div>
+      
+      <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+      <div class="row" style="background-color: rgb(65, 48, 126);">
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+      </div>
+      
+      <!-- Columns are always 50% wide, on mobile and desktop -->
+      <div class="row" style="background-color: rgb(177, 231, 106);">
+        <div class="col-6">.col-6</div>
+        <div class="col-6">.col-6</div>
+      </div>
+
+
+
+      <div class="container">
+        <div class="row" style="background-color: cadetblue;">
+          <div class="col">
+            First, but unordered
+          </div>
+          <div class="col order-12">
+            Second, but last
+          </div>
+          <div class="col order-1">
+            Third, but first
+          </div>
+        </div>
+      </div>
+</body>
+</html>

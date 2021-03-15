@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container-fluid" style="background-color: rgb(0, 0, 0); position:-webkit-sticky; position: sticky; top: 0;
+    padding: 30px;
+    font-size: 20px;">
+        <div class="row" >
+            <div class="col"><img src="green.jpg" alt="" style="height: 100px; width: 200px; float:right;"></div>
+            <div class="col">
+                <h1 style="text-align: center; color: rgb(153, 221, 156);"><b><u> Welcome to world quiz</u></b></h1>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-1 col-sm-3 col-lg-3 col-md-3"></div>
+            <div class="col-10 col-sm-6 col-lg-6 col-md-6 qbody">
+                
+                <div class="container" style="border: 2px solid rgb(173, 144, 13); padding: 10px; margin-top: 10px;">
+                    <div class="row">
+                        <div class="col">
+                            <h3>1) Total number of continents in the world is</h3><br>
+                            <input type="radio" id="5" name="q1" value="5" autocomplete="off">
+                            <label for="5">5</label><br>
+                            <input type="radio" id="4" name="q1" value="4" autocomplete="off" onclick="result4()">
+                            <label for="4">4</label><br>
+                            <input type="radio" id="6" name="q1" value="6" autocomplete="off">
+                            <label for="6">6</label> <br>
+                            <input type="radio" id="7" name="q1" value="7" autocomplete="off" onclick="result7()">
+                            <label for="7">7</label> <br><br>
+                            <div id="a1"></div>
+                            <p>
+                                <a class="btn btn-warning" data-bs-toggle="collapse" href="#divq1" role="button" aria-expanded="false" aria-controls="divq1">
+                                  Show/Hide answer
+                                </a>
+                            </p>
+                              <div class="collapse" id="divq1">
+                                <div class="card card-body">
+                                  7 continents.
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+                </div>
+           
+                <div class="container" style="border: 2px solid rgb(173, 144, 13); padding: 10px; margin-top: 10px;">
+                    <div class="row">
+                        <div class="col">
+                            <h3>2) Which country has the longest coastline in the world?</h3><br>
+                            <input type="radio" id="Russia" name="q2" value="Russia" autocomplete="off">
+                            <label for="">Russia</label><br>
+                            <input type="radio" id="Australia" name="q2" value="Australia" autocomplete="off">
+                            <label for="">Australia</label><br>
+                            <input type="radio" id="Indonesia" name="q2" value="Indonesia" autocomplete="off">
+                            <label for="">Indonesia</label> <br>
+                            <input type="radio" id="Canada" name="q2" value="Canada" autocomplete="off">
+                            <label for="">Canada</label> <br><br>
+                            <div id="a2"></div>
+                            <p>
+                                <a class="btn btn-warning" data-bs-toggle="collapse" href="#divq2" role="button" aria-expanded="false" aria-controls="divq2">
+                                  Show/Hide answer
+                                </a>
+                            </p>
+                              <div class="collapse" id="divq2">
+                                <div class="card card-body">
+                                  Canada
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" style="border: 2px solid rgb(173, 144, 13); padding: 10px; margin-top: 10px;">
+                    <div class="row">
+                        <div class="col">
+                            <h3>3)What is the world's most populated country?</h3><br>
+                            <input type="radio" id="Russia" name="q3" value="Russia" autocomplete="off">
+                            <label for="">Russia</label><br>
+                            <input type="radio" id="China" name="q3" value="China" autocomplete="off">
+                            <label for="">China</label><br>
+                            <input type="radio" id="India" name="q3" value="India" autocomplete="off">
+                            <label for="">India</label> <br>
+                            <input type="radio" id="Canada" name="q3" value="Canada" autocomplete="off">
+                            <label for="">Canada</label> <br><br>
+                            <div id="a3"></div>
+                            <p>
+                                <a class="btn btn-warning" data-bs-toggle="collapse" href="#divq3" role="button" aria-expanded="false" aria-controls="divq3">
+                                  Show/Hide answer
+                                </a>
+                            </p>
+                              <div class="collapse" id="divq3">
+                                <div class="card card-body">
+                                  China
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" style="border: 2px solid rgb(173, 144, 13); padding: 10px; margin-top: 10px;">
+                    <div class="row">
+                        <div class="col">
+                            <h3>4)What is the capital of the Philippines?</h3><br>
+                            <input type="radio" id="Manilla" name="q4" value="Manilla" autocomplete="off">
+                            <label for="">Manilla</label><br>
+                            <input type="radio" id="Dili" name="q4" value="Dili" autocomplete="off">
+                            <label for="">Dili</label><br>
+                            <input type="radio" id="Jakarta" name="q4" value="Jakarta" autocomplete="off">
+                            <label for="">Jakarta</label> <br>
+                            <input type="radio" id="Marawi" name="q4" value="Marawi" autocomplete="off">
+                            <label for="">Marawi</label> <br><br>
+                            <div id="a4"></div>
+                            <p>
+                                <a class="btn btn-warning" data-bs-toggle="collapse" href="#divq4" role="button" aria-expanded="false" aria-controls="divq4">
+                                  Show/Hide answer
+                                </a>
+                            </p>
+                              <div class="collapse" id="divq4">
+                                <div class="card card-body">
+                                  Manilla
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" style="border: 2px solid rgb(173, 144, 13); padding: 10px; margin-top: 10px;">
+                    <div class="row">
+                        <div class="col">
+                            <h3>5) What is the World's Smallest Country?</h3><br>
+                            <input type="radio" id="Vatican City" name="q5" value="Vatican City" autocomplete="off">
+                            <label for="">Vatican City</label><br>
+                            <input type="radio" id="Lichtenstein" name="q5" value="Lichtenstein" autocomplete="off">
+                            <label for="">Lichtenstein</label><br>
+                            <input type="radio" id="Luxembourg" name="q5" value="Luxembourg" autocomplete="off">
+                            <label for="">Luxembourg</label> <br>
+                            <input type="radio" id="Monaco" name="q5" value="Monaco" autocomplete="off">
+                            <label for="">Monaco</label> <br><br>
+                            <div id="a5"></div>
+                            <p>
+                                <a class="btn btn-warning" data-bs-toggle="collapse" href="#divq5" role="button" aria-expanded="false" aria-controls="divq5">
+                                  Show/Hide answer
+                                </a>
+                            </p>
+                              <div class="collapse" id="divq5">
+                                <div class="card card-body">
+                                  Vatican City
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" style="border: 2px solid rgb(173, 144, 13); padding: 10px; margin-top: 10px;">
+                    <div class="row">
+                        <div class="col">
+                            <h3>6) In which country is the world's highest waterfall?</h3><br>
+                            <input type="radio" id="Venuzuela" name="q6" value="Venuzuela" autocomplete="off">
+                            <label for="">Venuzuela</label><br>
+                            <input type="radio" id="South Africa" name="q6" value="South Africa" autocomplete="off">
+                            <label for="">South Africa</label><br>
+                            <input type="radio" id="USA" name="q6" value="USA" autocomplete="off">
+                            <label for="">USA</label> <br>
+                            <input type="radio" id="Brazil" name="q6" value="Brazil" autocomplete="off">
+                            <label for="">Brazil</label> <br><br>
+                            <div id="a6"></div>
+                            <p>
+                                <a class="btn btn-warning" data-bs-toggle="collapse" href="#divq6" role="button" aria-expanded="false" aria-controls="divq6">
+                                  Show/Hide answer
+                                </a>
+                            </p>
+                              <div class="collapse" id="divq6">
+                                <div class="card card-body">
+                                  Venuzuela
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" style="border: 2px solid rgb(173, 144, 13); padding: 10px; margin-top: 10px;">
+                    <div class="row">
+                        <div class="col">
+                            <h3>7) What is the capital of Australia?</h3><br>
+                            <input type="radio" id="Sydney" name="q7" value="Sydney" autocomplete="off">
+                            <label for="">Sydney</label><br>
+                            <input type="radio" id="Canberra" name="q7" value="Canberra" autocomplete="off">
+                            <label for="">Canberra</label><br>
+                            <input type="radio" id="Adelaide" name="q7" value="Adelaide" autocomplete="off">
+                            <label for="">Adelaide</label> <br>
+                            <input type="radio" id="Melbourne" name="q7" value="Melbourne" autocomplete="off">
+                            <label for="">Melbourne</label> <br><br>
+                            <div id="a7"></div>
+                            <p>
+                                <a class="btn btn-warning" data-bs-toggle="collapse" href="#divq7" role="button" aria-expanded="false" aria-controls="divq7">
+                                  Show/Hide answer
+                                </a>
+                            </p>
+                              <div class="collapse" id="divq7">
+                                <div class="card card-body">
+                                  Canberra
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" style="border: 2px solid rgb(173, 144, 13); padding: 10px; margin-top: 10px;">
+                    <div class="row">
+                        <div class="col">
+                            <h3>8) In which country is the Cape of Good Hope?</h3><br>
+                            <input type="radio" id="Australia" name="q8" value="Australia" autocomplete="off">
+                            <label for="">Australia</label><br>
+                            <input type="radio" id="Canada" name="q8" value="Canada" autocomplete="off">
+                            <label for="">Canada</label><br>
+                            <input type="radio" id="South Africa" name="q8" value="South Africa" autocomplete="off">
+                            <label for="">South Africa</label> <br>
+                            <input type="radio" id="USA" name="q8" value="USA" autocomplete="off">
+                            <label for="">USA</label> <br><br>
+                            <div id="a8"></div>
+                            <p>
+                                <a class="btn btn-warning" data-bs-toggle="collapse" href="#divq8" role="button" aria-expanded="false" aria-controls="divq8">
+                                  Show/Hide answer
+                                </a>
+                            </p>
+                              <div class="collapse" id="divq8">
+                                <div class="card card-body">
+                                  South Africa
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" style="border: 2px solid rgb(173, 144, 13); padding: 10px; margin-top: 10px;">
+                    <div class="row">
+                        <div class="col">
+                            <h3>9) Where was the hottest temperature ever recorded?</h3><br>
+                            <input type="radio" id="Mexico" name="q9" value="Mexico" autocomplete="off">
+                            <label for="">Mexico</label><br>
+                            <input type="radio" id="Peru" name="q9" value="Peru" autocomplete="off">
+                            <label for="">Peru</label> <br>
+                            <input type="radio" id="Libya" name="q9" value="Libya" autocomplete="off">
+                            <label for="">Libya</label><br>
+                            <input type="radio" id="India" name="q9" value="India" autocomplete="off">
+                            <label for="">India</label> <br><br>
+                            <div id="a9"></div>
+                            <p>
+                                <a class="btn btn-warning" data-bs-toggle="collapse" href="#divq9" role="button" aria-expanded="false" aria-controls="divq9">
+                                  Show/Hide answer
+                                </a>
+                            </p>
+                              <div class="collapse" id="divq9">
+                                <div class="card card-body">
+                                  Libya
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" style="border: 2px solid rgb(173, 144, 13); padding: 10px; margin-top: 10px;">
+                    <div class="row">
+                        <div class="col">
+                            <h3>10) Which of these countries uses the Shilling as its currency?</h3><br>
+                            <input type="radio" id="Malta" name="q10" value="Malta" autocomplete="off">
+                            <label for="">Malta</label><br>
+                            <input type="radio" id="Kenya" name="q10" value="Kenya" autocomplete="off">
+                            <label for="">Kenya</label> <br>
+                            <input type="radio" id="Zimbabwe" name="q10" value="Zimbabwe" autocomplete="off">
+                            <label for="">Zimbabwe</label><br>
+                            <input type="radio" id="Seychelles" name="q10" value="Seychelles" autocomplete="off">
+                            <label for="">Seychelles</label> <br><br>
+                            <div id="a10"></div>
+                            <p>
+                                <a class="btn btn-warning" data-bs-toggle="collapse" href="#divq10" role="button" aria-expanded="false" aria-controls="divq10">
+                                  Show/Hide answer
+                                </a>
+                            </p>
+                              <div class="collapse" id="divq10">
+                                <div class="card card-body">
+                                  Kenya
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-1 col-sm-3 col-lg-3 col-md-3"></div>
+        </div>
+    </div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+<script src="quiz.js"></script>
+</html>

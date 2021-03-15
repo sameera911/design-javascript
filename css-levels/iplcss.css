@@ -1,0 +1,37 @@
+header{
+color: rgb(48, 48, 185);
+background-color: darkgray;
+width: 80%;
+height: 60px;
+}
+
+div{
+    background-color: rgb(231, 78, 78);
+    width: 50%;
+  
+    border-top: 4px solid rgb(26, 42, 110);
+}
+
+#mi{
+    border:2px solid rgb(87, 55, 49) ;
+    background-color: darkseagreen;
+    background-image: url("angular.png") ;
+}
+
+#miul{
+
+    color: rgb(26, 42, 110);
+}
+
+#h2mi{
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cls{
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    font-family:cursive;
+}

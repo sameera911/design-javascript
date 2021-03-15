@@ -1,0 +1,78 @@
+footer .foot
+{
+    right: 600px;
+    float:right;
+    position: relative;
+}
+
+.bodyct{
+    background-color: black;
+    
+    background-image: url(World.jpg);
+    background-repeat: no-repeat;
+   /*background-position: center;*/
+    background-size:cover;
+    
+    
+}
+
+#fmore {display: none;} 
+#smore {display: none;} 
+
+#tmore {display: none;} 
+
+
+.anc:hover
+{
+    background-color: rgb(58, 141, 250);
+}
+
+li a:link {
+    color: rgb(43, 209, 250);
+  }
+  
+    li a:visited {
+    color: green;
+  }
+  
+  li a:hover {
+    color: hotpink;
+  }
+  
+
+ li a:active {
+    color: blue;
+  }
+
+.rightstyle
+{
+    position: static;
+    float: left;
+    overflow: hidden;
+}
+@media only screen and (max-width: 600px) 
+{
+    .bodyct
+    { 
+        background-image:url(World.jpg);
+        /*background-position: center;*/
+        
+    }
+}
+
+.lab{
+    color: white;
+}
+
+.leftstyle{
+
+    background-color: rgba(0, 0, 0, 0.041);
+    height:450px;
+    
+    
+}
+.op
+{
+    background-color: black;
+    opacity: 1;
+}

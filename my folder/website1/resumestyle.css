@@ -1,0 +1,35 @@
+.leftstyle{
+
+    background-color: rgb(37, 4, 30);
+    height:1000px;
+    overflow-y:scroll;
+    scrollbar-color:rgb(241, 235, 235);
+    scrollbar-highlight-color: chocolate;
+
+}
+
+.lefttag
+{
+    font-weight:bold;
+    
+    font-family: fantasy;
+    background-color: #4e3040f8;
+    color: rgb(226, 220, 220);
+}
+.righttag
+{
+    font-weight:bold;
+    font-family: fantasy;
+    background-color: #e5c0d9f8;
+    color: rgb(226, 220, 220);
+}
+
+.checked {
+    color: rgb(134, 33, 109);
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }

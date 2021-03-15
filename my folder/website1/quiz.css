@@ -1,0 +1,14 @@
+body{
+    background-image: url("nature-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.qbody
+{
+    background-color: rgb(241, 233, 204);
+    border: 2px solid rgb(20, 87, 107);
+    height:auto;
+    
+}

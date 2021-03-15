@@ -1,0 +1,13 @@
+.btn
+{
+    margin-top: 40px;
+    margin-left:60px;
+    background-color: rgb(248, 239, 225);
+    width: 60px;
+    font-weight: bold;
+}
+
+.bg
+{
+    opacity: 0.1;
+}
