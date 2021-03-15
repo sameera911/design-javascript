@@ -10,3 +10,4 @@ for(var i=1;i<=upplim;i++)
     }
 }
 //console.log(n**n);
+//tytu

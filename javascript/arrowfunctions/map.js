@@ -3,6 +3,7 @@ var arr=[2,4,6,8,7,3];
 // {
 //     return num1**2;
 // }
+//utyutyu
 //var data=arr.map(square); OR
 arr.sort((o1,o2)=>o1>o2?-1:1).forEach(o=>console.log(o));
 

@@ -23,7 +23,7 @@ employee.push(ob3);
 // for(let emp of employee)
 // {
 //     if(emp.des=="developer")
-//     {
+//     {//tytu
 //         console.log(emp);
 //     }
     

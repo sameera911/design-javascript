@@ -21,4 +21,4 @@ function del()
     let data=document.querySelector("#txtinp").value;
     let res=data.slice(0,-1);
     document.querySelector("#txtinp").value=res;
-}
+}//tytu

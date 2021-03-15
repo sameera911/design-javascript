@@ -16,4 +16,4 @@ if(flag==0)
 else
 {
     console.log(n+" is not a prime number");
-}
+}//tytu

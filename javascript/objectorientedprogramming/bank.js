@@ -27,4 +27,4 @@ class Bank
 
 var obj=new Bank(1234,"Raj",3000);
 //obj.createAccount(1234,"Raj",3000);
-obj.deposit(3000);
+obj.deposit(3000);//tytu

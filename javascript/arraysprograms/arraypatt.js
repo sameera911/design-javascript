@@ -5,7 +5,7 @@ for(let i of arr)
 {
     sum=sum+i;
 }
-//console.log(sum);
+
 for(let i of arr)
 {
     arr1.push(sum-i);

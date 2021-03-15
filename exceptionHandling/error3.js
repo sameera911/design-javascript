@@ -5,6 +5,7 @@ try{
         throw new Error("Invalid age");//customised exception made by us... 'Error' is a constructor
     }
 }
-catch(err){
+catch(err)
+{
     console.log(err.message);
 }

@@ -11,4 +11,4 @@ for(let ch of text)//without split each character of the text will get in 'ch'
     else{
         dict[ch]=1;
     }
-}
+}//tytu

@@ -20,3 +20,4 @@ var mat=new Maths();
 mat.add(10);
 mat.add(10,20);
 mat.add(10,20,30);
+//tytu

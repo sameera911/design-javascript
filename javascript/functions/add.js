@@ -6,4 +6,4 @@ function add(n1,n2)
 }
 
 var tot=add(12,10);
-console.log(tot);
+console.log(tot);//tytu

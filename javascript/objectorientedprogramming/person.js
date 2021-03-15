@@ -14,3 +14,4 @@ class Person
 var obj=new Person(25,"raj");
 
 obj.printPerson();
+//tytu

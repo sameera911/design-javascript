@@ -7,3 +7,4 @@ console.log("type of num1 is "+typeof(num1));
 console.log("type of num2 is "+typeof(num2));
 console.log("type of name is "+typeof(name));
 console.log("type of isAllow is "+typeof(isAllow));
+//tytu

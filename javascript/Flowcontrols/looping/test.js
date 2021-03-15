@@ -8,4 +8,4 @@ while (num != 0) {
     sum=sum+rs;
     num=Math.floor(num/10);
 }
-console.log(sum);
+console.log(sum);//tytu

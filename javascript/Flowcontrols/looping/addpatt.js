@@ -14,3 +14,4 @@ var res=0;
     }
    
 console.log("result is "+res);
+//tytu

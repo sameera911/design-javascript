@@ -10,6 +10,7 @@ class Bank {
         }
         return accountDetails;
     }
+    //78y87
     static login()
      {
         var acno = document.querySelector("#txtacc").value;

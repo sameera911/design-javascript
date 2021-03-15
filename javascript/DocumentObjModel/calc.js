@@ -15,7 +15,7 @@ function result()
     let res=eval(data);
     document.querySelector("#txtinp").value=res;
 }
-
+//5ryt
 function del()
 {
     let data=document.querySelector("#txtinp").value;

@@ -1,6 +1,8 @@
 
 //***** using XMLHTTPRequest object
 
+
+
 // function displayCountryData()
 // {
 //     //  alert("jghhdfgdhg");

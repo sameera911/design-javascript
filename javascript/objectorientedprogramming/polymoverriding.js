@@ -16,3 +16,4 @@ class Child extends Parent{
 
 var obj=new Child();
 obj.phone();
+//tytu

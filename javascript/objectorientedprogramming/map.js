@@ -8,7 +8,7 @@ var sum=arr.reduce((num1,num2)=>num1+num2);
 console.log(sum);
 
 
-arr.forEach(o=>console.log(o)); //each element 
+arr.forEach(o=>console.log(o)); //each element //tytu
 
 var res=arr.map(num1=>num1**2);
 console.log(res);

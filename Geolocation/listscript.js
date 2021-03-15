@@ -66,6 +66,7 @@ function displayClist(data)
                                            
                        </div>
                        </div>`
+                       
                       document.querySelector("#ctrydet").innerHTML=html_data;
                }
               

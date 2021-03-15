@@ -9,7 +9,7 @@ ck.addEventListener("click",()=>
 var dck=document.querySelector("#dclk");
 dck.addEventListener("dblclick",()=>
 {
-    
+    //uyhuk
     dck.style.color="blue";
     dck.textContent="double Clicked"
 })

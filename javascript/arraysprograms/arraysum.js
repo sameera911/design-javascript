@@ -17,7 +17,7 @@ console.log(sum);
 //     }
 //     else
 //     {
-//         arrodd.push(i);
+//         arrodd.push(i);//fyty
 //     }
 // }
 // console.log(arreven);

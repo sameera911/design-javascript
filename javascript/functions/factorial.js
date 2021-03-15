@@ -12,4 +12,4 @@ function factorial(num)
 }
 
 var f=factorial(5);
-console.log(f);
+console.log(f);//tytu

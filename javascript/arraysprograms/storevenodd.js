@@ -22,3 +22,4 @@ for(var i of arr)
 }
 console.log(arreven);
 console.log(arrodd);
+//uiuo

@@ -13,7 +13,7 @@
 // console.log(arr1);
 // var arr2=[];
 // arr2.push(arr1.sort((no1,no2)=>no1<no2?-1:1));
-// console.log(arr2);
+// console.log(arr2);//yutfuty
 
 var arr1=[2,5,6,8,12,23,45];
 arr1.sort((no1,no2)=>(no1-no2));//if array is non-sorted array.

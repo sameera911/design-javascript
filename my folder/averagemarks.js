@@ -14,7 +14,7 @@ var st2=new Student(102,"Syam",90,91,95);
 var st3=new Student(103,"Sachin",80,93,75);
 var st4=new Student(104,"Ajay",82,91,99);
 var st5=new Student(105,"Ram",30,45,25);
-
+//efs
 var student=[];
 student.push(st1);
 student.push(st2);

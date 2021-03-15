@@ -13,6 +13,7 @@ var arr2=[8,9,10,11,12,16];
 //     }
 // }
 
+
 var p1=0;
 var p2=0;
 while((p1<arr1.length) & (p2<arr2.length))

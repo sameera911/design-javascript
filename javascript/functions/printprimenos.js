@@ -19,4 +19,4 @@ function printprime(lowlim,upplim)
     }
 }
 
-printprime(3,50);
+printprime(3,50);//tytu

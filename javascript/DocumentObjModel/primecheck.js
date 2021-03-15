@@ -21,6 +21,7 @@ function prime()
         alert(num+" is not a prime number");
     }
 }
+//uiuuo
 
 function clearBox()
 {

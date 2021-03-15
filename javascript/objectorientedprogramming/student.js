@@ -21,3 +21,4 @@ st.printStudent();
 
 //console.log(Student.college); //outside or inside, static variable access using classname
 
+//tytu

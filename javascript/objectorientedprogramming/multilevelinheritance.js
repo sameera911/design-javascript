@@ -5,7 +5,7 @@ class Parent
         console.log("have passion pro");
     }
 }
-
+//tytu
 class Child extends Parent
 {
     car()

@@ -16,6 +16,7 @@
     background-color: #4e3040f8;
     color: rgb(226, 220, 220);
 }
+
 .righttag
 {
     font-weight:bold;
@@ -27,6 +28,7 @@
 .checked {
     color: rgb(134, 33, 109);
   }
+  
   .center {
     display: block;
     margin-left: auto;

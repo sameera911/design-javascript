@@ -20,7 +20,7 @@ console.log(highpts);
 
 ///isl.reduce((tm1,tm2)=>tm1.pts>tm2.pts?tm1:tm2).forEach(tm=>console.log(tm));
 
-//find highlos team
+//find highlos team//tytu
 var highlos=isl.reduce((tm1,tm2)=>tm1.los>tm2.los?tm1:tm2);
 console.log(highlos);
 

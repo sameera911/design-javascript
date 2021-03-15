@@ -22,4 +22,4 @@ while(num!=0)
     res=res*10+dig;
     num=Math.floor(num/10);
 }
-console.log(res);
+console.log(res);//tytu

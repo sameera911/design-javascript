@@ -20,7 +20,7 @@ if("gender" in employee)
 else{
     console.log("Not exist");
 }
-
+//tytu
 employee.gender="male";
 
 console.log(employee);

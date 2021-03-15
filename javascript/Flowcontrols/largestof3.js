@@ -7,3 +7,4 @@ else if((n1<n2)&(n3<n2))
 console.log("The largest number is "+n2);
 else 
 console.log("The largest number is "+n3);
+//tytu

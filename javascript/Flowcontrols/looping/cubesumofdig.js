@@ -11,4 +11,4 @@ while(n!=0)
         n=Math.floor(n/10);
         
     }
-console.log(sum);
+console.log(sum);//tytu
